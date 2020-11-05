@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 
 const SeccionUno = () => (
-    <Fragment>
+    <section id="perfil">
     <div className="container-fluid py-5 bg-white">
         <blockquote className="blockquote text-center mb-5 mt-2">
-            <p className="mb-0 h2 mb-3">Raymundo Antonio Flores Díaz</p>
+            <h3 className="mb-0 mb-3 contenedor">Raymundo Antonio Flores Díaz&nbsp;<span>&nbsp;&nbsp;</span></h3>
             <footer className="blockquote-footer"><a name="perfil">React Front-End Developer</a></footer>
         </blockquote>
 
@@ -17,7 +17,7 @@ const SeccionUno = () => (
             </div>
         </div>
         <div className="row justify-content-center">
-            <div className="col-lg-3 justify-content-center" align="center">
+            <div className="col-lg-3 mr-2 justify-content-center" align="center">
                 <img 
                     
                     src="https://pbs.twimg.com/media/EmCSc0gX0AAaqxx?format=jpg&name=small"
@@ -26,7 +26,7 @@ const SeccionUno = () => (
                     width="300px"
                 />
             </div>
-            <div className="col-lg-4 mx-1">
+            <div className="ml-lg-5 col-lg-4 mx-1">
                 <p className="text-justify estilo-1">
                 Busco generar estrategias y lineamientos tecnológicos para
                 poder dar solución a los problemas que pueda enfrentar, así
@@ -49,7 +49,7 @@ const SeccionUno = () => (
             </div>
         </div>
     </div>
-    </Fragment>
+    </section>
 );
  
 export default SeccionUno;

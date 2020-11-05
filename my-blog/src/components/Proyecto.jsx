@@ -1,10 +1,10 @@
-import React, { Fragment} from 'react';
+import React from 'react';
 
 const Proyecto = () => {
     
     return (
-        <Fragment>
-            <div className="container-fluid my-5">
+        <section id="servicios">
+            <div className="container-fluid my-5 py-5">
                 <p className="titulos display-4 text-center">Servicios</p>
                 <div className="row justify-content-center">
                     <div className="col-md-8">
@@ -73,15 +73,14 @@ const Proyecto = () => {
                 <div className="offset-md-4 col-md-4 px-2">
                     <p className="text-justify">
                         <i className="text-muted text-center">
-                            <a name="escolaridad">Estos son algunos proyectos realizados en un curso de<br/> 
+                        Estos son algunos proyectos realizados en un curso de<br/> 
                     React que han servido para superar mis conocimientos <br/>
                     en el tema.
-                            </a>
                         </i>
                     </p>
                 </div>
             </div>
-        </Fragment>
+        </section>
     );
 }
 

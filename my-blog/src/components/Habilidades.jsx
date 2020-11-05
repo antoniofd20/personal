@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 const Habilidades = () => (
-    <Fragment>
+    <section id="habilidades">
         <div className="container-fluid pt-5 mb-5">
             <p className="titulos display-4 text-center">Habilidades</p>
 
@@ -132,7 +132,7 @@ const Habilidades = () => (
                 </div>
             </div>
         </div>
-    </Fragment>
+    </section>
 );
  
 export default Habilidades;

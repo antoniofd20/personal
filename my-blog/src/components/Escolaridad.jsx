@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 const Escolaridad = () => (
-    <Fragment>
+    <section id="escolaridad">
         <div className="container-fluid bg-white pb-3">
         <div className="row justify-content-center">
             <div className="col-md-8">
@@ -60,9 +60,8 @@ const Escolaridad = () => (
             </div>
             
         </div>
-        <a name="habilidades"></a>
         </div>
-    </Fragment>
+    </section>
 );
  
 export default Escolaridad;
