@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #e5e5e5;
+  min-height: 100%;
+}
+
+.nav {
+  background-color: rgba(7, 158, 181, 0.8);
+  
+}
+
+.header{
+  background-color: rgba(63, 199, 220, 0.5);
+}
+
+.logo {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  /*font-weight: 1000;*/
+  font-size: 1500%;
+  text-align: center;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+.titulos {
+  color:  #079eb5;
+}
+
+.presentacion {
+  color:white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.linea {
+  width: 50%;
+  color: #079eb5;
+  size: 5;
+}
+
+p.estilo-1::first-letter{
+	font-size:2em;
+	font-family:serif;
+}
+
+.estrellas {
+  background-color:  #e5e5e5;
+}
+
+.contacto {
+  background-color:  #212f3d;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.letrasContacto {
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.yo {
+  background-image: url(./yo.jpg);
+}
